@@ -43,7 +43,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_leetcode: yes
-          plugin_leetcode_user: puthearith   # <- Replace with your LeetCode username
+          plugin_leetcode_user: PuthearithKeng   # <- your LeetCode username
           plugin_leetcode_sections: solved, skills
-          plugin_leetcode_limit_solved: 30
-          plugin_leetcode_limit_skills: 15
