@@ -34,16 +34,8 @@
 
 </div>
 
-
-
-<!-- # 🏆 Achievements
- <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.achievements.compact.svg" width="500" style="border-radius: 20px;" /> -->
-
 # 📅 Yearly Commit Calendar
 <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="100%" style="border-radius: 20px;" />
-
-# 🧠 LeetCode Stats
-<img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.leetcode.svg" width="100%" style="border-radius: 20px;" />
 
 
 <div align="center">
