@@ -35,26 +35,22 @@
 </div>
 
 
-## 🏅 Achievements & 📅 Commit Calendar
-
+# 🏅 Achievements & 📅 Isometric Commit Calendar
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-
   <div style="text-align: center;">
     <img src="./achievements.svg" alt="Achievements" width="300"/>
     <p>Achievements</p>
   </div>
-
   <div style="text-align: center;">
-    <img src="./isometric-commit.svg" alt="Commit Calendar" width="300"/>
+    <img src="./isocalendar.svg" alt="Isometric Commit Calendar" width="300"/>
     <p>Isometric Commit Calendar</p>
   </div>
-
 </div>
 
 <div align="center">
   
-[![](https://visitcount.itsvg.in/api?id=kengputhearith&icon=0&color=0)](https://visitcount.itsvg.in)
-
+  [![](https://visitcount.itsvg.in/api?id=kengputhearith&icon=0&color=0)](https://visitcount.itsvg.in)
+  
 </div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
