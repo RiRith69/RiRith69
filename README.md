@@ -4,8 +4,9 @@
   </div>
 </div>
 
-# README
-<div style="color: yellow;">Hello my name is keng puthearith</div>
+# 🌟 **Hello, my name is Keng Puthearith** 🌟
+
+![Keng Puthearith](https://img.shields.io/badge/Keng_Puthearith-🔥%20Awesome-%23FFDD00?style=for-the-badge&logo=github)
 
 
 # 💻 Tech Stack:
