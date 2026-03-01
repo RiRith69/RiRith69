@@ -1,6 +1,6 @@
 name: Generate GitHub Metrics
 on:
-  workflow_dispatch: # manual run
+  workflow_dispatch: # allows manual run
 jobs:
   metrics:
     runs-on: ubuntu-latest
@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Compact Achievements
+      # Compact Achievements (safe)
       - name: Compact display
         uses: lowlighter/metrics@latest
         with:
@@ -17,11 +17,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
+          # only include badges you are likely to have
+          plugin_achievements_only: sponsor, member, developer
           plugin_achievements_display: compact
-          plugin_achievements_threshold: X
+          plugin_achievements_threshold: 0
 
-      # Full-year Isometric Calendar
+      # Full-year Isometric Commit Calendar
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
