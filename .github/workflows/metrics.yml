@@ -3,7 +3,7 @@ name: Generate GitHub Metrics
 on:
   schedule:
     - cron: "0 0 * * *" # runs daily at midnight
-  workflow_dispatch: # allows manual run
+  workflow_dispatch: # manual trigger
 
 jobs:
   metrics:
@@ -11,13 +11,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Generate Metrics SVGs
-        uses: lowlighter/metrics@latest
+      # Achievements SVG
+      - uses: lowlighter/metrics@latest
         with:
           filename: achievements.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           plugin_achievements: yes
-          plugin_isometric_commit: yes
+
+      # Isometric Commit Calendar SVG
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: isocalendar.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_isocalendar: yes
