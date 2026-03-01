@@ -4,12 +4,14 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v3
+
       # Compact Achievements
       - name: Compact display
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
@@ -18,12 +20,20 @@ jobs:
         test:
           timeout: 1800000
 
+      # Regular Isometric Commit Calendar
+      - name: Isometric Commit Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: isocalendar.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_isocalendar: yes
+
       # Full-year Isometric Calendar
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
