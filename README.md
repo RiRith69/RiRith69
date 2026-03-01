@@ -35,21 +35,15 @@
 </div>
 
 
-# 🏅 Achievements
 
-<div style="display: flex; justify-content: center; margin: 40px 0;">
-  <div style="text-align: center; background-color: #2a2a2a; padding: 50px; border-radius: 20px; box-shadow: 0 6px 25px rgba(0,0,0,0.5);">
-    <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.achievements.compact.svg" width="500" style="border-radius: 20px;" />
-  </div>
-</div>
+# 🏆 Achievements
+<img src="./metrics.plugin.achievements.svg" alt="Achievements" width="100%">
 
-# 📅 Full-year Commit Calendar
+# 📅 Yearly Commit Calendar
+<img src="./metrics.plugin.isocalendar.svg" alt="Commit Calendar" width="100%">
 
-<div style="display: flex; justify-content: center; margin: 40px 0;">
-  <div style="text-align: center; background-color: #2a2a2a; padding: 50px; border-radius: 20px; box-shadow: 0 6px 25px rgba(0,0,0,0.5);">
-    <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="500" style="border-radius: 20px;" />
-  </div>
-</div>
+# 🧠 LeetCode Stats
+<img src="./metrics.plugin.leetcode.svg" alt="LeetCode Stats" width="100%">
 
 
 <div align="center">
