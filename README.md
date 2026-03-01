@@ -40,7 +40,6 @@
 <div style="display: flex; justify-content: center; margin: 40px 0;">
   <div style="text-align: center; background-color: #2a2a2a; padding: 50px; border-radius: 20px; box-shadow: 0 6px 25px rgba(0,0,0,0.5);">
     <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.achievements.compact.svg" width="500" style="border-radius: 20px;" />
-    <p style="margin-top: 20px; font-size: 1.5rem; font-weight: bold; color: #ffd700;">Compact Achievements</p>
   </div>
 </div>
 
@@ -49,7 +48,6 @@
 <div style="display: flex; justify-content: center; margin: 40px 0;">
   <div style="text-align: center; background-color: #2a2a2a; padding: 50px; border-radius: 20px; box-shadow: 0 6px 25px rgba(0,0,0,0.5);">
     <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="500" style="border-radius: 20px;" />
-    <p style="margin-top: 20px; font-size: 1.5rem; font-weight: bold; color: #00bfff;">Full-year Isometric Commit Calendar</p>
   </div>
 </div>
 
