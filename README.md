@@ -1,12 +1,12 @@
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="text-align: center; width: 100%;">
-    <img src="https://github.com/Kengpu/Kengpu/blob/main/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Demo" width="100%">
+    <img src="https://github.com/RiRith69/RiRith69/blob/main/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Demo" width="100%">
   </div>
 </div>
 
 # 🌟 **Hello, my name is Chren Sophearith** 🌟
 
-![Chren Sophearith](https://img.shields.io/badge/Chren Sophearith-🔥%20Awesome-%23FFDD00?style=for-the-badge&logo=github)
+![Keng Puthearith](https://img.shields.io/badge/Chren_Sophearith-🔥%20Awesome-%23FFDD00?style=for-the-badge&logo=github)
 
 
 # 💻 Tech Stack:
