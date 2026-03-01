@@ -4,7 +4,7 @@
   </div>
 </div>
 
-# 🌟 **Hello, my name is Keng Puthearith** 🌟
+# 🌟 **Hello, my name is Chren Sophearith** 🌟
 
 ![Keng Puthearith](https://img.shields.io/badge/Keng_Puthearith-🔥%20Awesome-%23FFDD00?style=for-the-badge&logo=github)
 
