@@ -22,7 +22,18 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_limit: 1
           plugin_achievements_threshold: C
-
+      # LeetCode stats
+      - name: LeetCode stats
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: yourleetcodeusername  # <- Replace this
+          plugin_leetcode_sections: solved, skills
+          plugin_leetcode_limit_solved: 10
+          plugin_leetcode_limit_skills: 8
       # 📅 Full-year Isometric Commit Calendar
       - name: Isometric Commit Calendar
         uses: lowlighter/metrics@v3.34
