@@ -35,7 +35,6 @@
 </div>
 
 # 📅 Yearly Commit Calendar
-# 📅 Yearly Commit Calendar
 <img src="https://github.com/RiRith69/RiRith69/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="100%" style="border-radius: 20px;" />
 
 
