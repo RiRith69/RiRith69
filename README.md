@@ -35,15 +35,15 @@
 </div>
 
 
-# 🏅 Achievements & 📅 Isometric Commit Calendar
+# 🏅 Achievements & 📅 Full-year Isometric Commit Calendar
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <div style="text-align: center;">
-    <img src="./achievements.svg" alt="Achievements" width="300"/>
-    <p>Achievements</p>
+    <img src="./metrics.plugin.achievements.compact.svg" width="300" />
+    <p>Compact Achievements</p>
   </div>
   <div style="text-align: center;">
-    <img src="./isocalendar.svg" alt="Isometric Commit Calendar" width="300"/>
-    <p>Isometric Commit Calendar</p>
+    <img src="./metrics.plugin.isocalendar.fullyear.svg" width="300" />
+    <p>Full-year Isometric Commit Calendar</p>
   </div>
 </div>
 
