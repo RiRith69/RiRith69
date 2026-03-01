@@ -16,8 +16,7 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kengputhearith&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=kengputhearith&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
+[![trophy](https://github-trophies.vercel.app/?username=Kengpu&theme=dark&no-bg=true&no-frame=true)](https://github.com/lucthienphong1120/github-trophies)
 ---
 [![](https://visitcount.itsvg.in/api?id=kengputhearith&icon=0&color=0)](https://visitcount.itsvg.in)
 
