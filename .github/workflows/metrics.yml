@@ -1,6 +1,8 @@
 name: Generate GitHub Metrics
 on:
-  workflow_dispatch:
+  workflow_dispatch: # allows manual run
+  schedule:
+    - cron: '0 * * * *' # runs daily at 00:00 UTC
 
 jobs:
   metrics:
@@ -11,35 +13,24 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # 🏆 Achievements (stable & safe)
-      - name: Achievements
-        uses: lowlighter/metrics@v3.34
+      # Achievements (detailed for stability)
+      - name: Achievements (detailed)
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_achievements_limit: 1
+          plugin_achievements_limit: 10
           plugin_achievements_threshold: C
-      # LeetCode stats
-      - name: LeetCode stats
-        uses: lowlighter/metrics@v3.34
+
+      # Full-year Isometric Commit Calendar
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_leetcode: yes
-          plugin_leetcode_user: PuthearithKeng  # <- Replace this
-          plugin_leetcode_sections: solved, skills
-          plugin_leetcode_limit_solved: 10
-          plugin_leetcode_limit_skills: 8
-      # 📅 Full-year Isometric Commit Calendar
-      - name: Isometric Commit Calendar
-        uses: lowlighter/metrics@v3.34
-        with:
-          filename: metrics.plugin.isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
