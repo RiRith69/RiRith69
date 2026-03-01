@@ -1,31 +1,34 @@
 name: Generate GitHub Metrics
 on:
-  workflow_dispatch: # allows manual run
+  workflow_dispatch:
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v3
 
-      # Compact Achievements (safe)
-      - name: Compact display
-        uses: lowlighter/metrics@latest
+      # Achievements 
+      - name: Achievements (compact)
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-      # Full-year Isometric Commit Calendar
+          plugin_achievements_limit: 0
+          plugin_achievements_threshold: C
+
+      # Isometric Commit Calendar
       - name: Full-year calendar
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
